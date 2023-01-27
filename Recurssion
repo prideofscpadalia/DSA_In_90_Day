@@ -1,6 +1,20 @@
 Recurssion is a process in which a function/meathod calls itself continously.
 Recurssion make the code compact but complicated to understand
 
+In recurssion programe , the solution to the base case is provided and the solution of the bigger problem
+is expressed in terms of smaller problem.
+
+Take example of factorial using recurssion.
+.....................................................
+int fact(int n)
+{
+    if (n < = 1) // base case
+        return 1;
+    else    
+        return n*fact(n-1);    
+}
+......................................................
+
 Ex: Adding 2 number series using recurssion
 
 class Add{
@@ -16,3 +30,26 @@ class Add{
         System.out.println(sum);
     }
 }
+
+.....................................................
+Advantage and Disadvantage of Recurssion.
+
+Advantage>>>>>>>>
+
+-> The code become shorter and reduced the unecessary calling to functions.
+-> Useful for solving formula based problem and complex algorithm.
+-> Useful in Graph and Tree traversal as they are inherently recursive.
+-> Recusrion helps to divide the problem into sub-problem and then solve them, esseentially divide and conquere..
+
+.....................................................
+
+Disadvantage>>>>>>>
+
+-> The code become hard to understand and analyze.
+-> A lot of money is used to hold the copies of recursive functions in the memory.
+-> Time and Space complexity increase.
+-> Recurssion is generally slower than iteration.
+
+....................................................
+
+
