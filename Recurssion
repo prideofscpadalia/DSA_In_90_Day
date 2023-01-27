@@ -1,0 +1,18 @@
+Recurssion is a process in which a function/meathod calls itself continously.
+Recurssion make the code compact but complicated to understand
+
+Ex: Adding 2 number series using recurssion
+
+class Add{
+    public static int add(int n){
+        if(n==0){
+            return 0;
+        }else{
+            return n + add(n-1);
+        }
+    }
+    public static void main(String [] args){
+        int sum = add(10);
+        System.out.println(sum);
+    }
+}
