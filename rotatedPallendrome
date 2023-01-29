@@ -1,0 +1,6 @@
+Check if the String is a rotated palindrome or not.
+Given a string , check if it is a rotated palindrome or not.
+
+For Example :
+CBAABCD is a rotated palindrome as it is a rotation of palindrome ABC DCBA.
+BAABCC is a rotated palindrome as it is a rotation of palindrome AB CCBA.
