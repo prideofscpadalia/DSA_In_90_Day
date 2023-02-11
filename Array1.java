@@ -36,7 +36,10 @@ public class Array1 {
 
 
 //  ....................Using Recurssion........................
-        public static int Arr(int [] marks){
+        public static int Arr(int [] marks ,int n){
+            Scanner sc = new Scanner(System.in);
+            for(int i=0;i<n.length;i++){
+                marks[i] = sc.nextInt();
             
         }
 }
