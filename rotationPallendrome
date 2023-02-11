@@ -1,0 +1,14 @@
+class rotationPallendrome{
+    public static boolean isPallendrome(String str,int low,int high){
+        //check if string is pallendrome if yes then return true;
+        //else rotate string by one 
+        //then again check if the string is palledrome by recursivly calling the function again;
+        //Do it till you rotate all string and check after every single rotation weather it is pallendrome or not If by any chance the string 
+        //become a pallendrome return true.
+        return (low >= high)||(str.charAt(low)==str.charAt(high)&&isPalindrome(str,low+1,high-1));
+
+    }
+    public static void main(String[] args) {
+        
+    }
+}
